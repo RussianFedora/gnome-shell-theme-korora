@@ -1,0 +1,12 @@
+diff -urN gnome-shell-theme-korora-0.5.orig/gnome-shell/gnome-shell.css gnome-shell-theme-korora-0.5/gnome-shell/gnome-shell.css
+--- gnome-shell-theme-korora-0.5.orig/gnome-shell/gnome-shell.css	2016-01-19 00:09:13.649858712 +0300
++++ gnome-shell-theme-korora-0.5/gnome-shell/gnome-shell.css	2016-01-19 00:11:37.116338323 +0300
+@@ -2979,7 +2979,7 @@
+ */
+ 
+ #dashtodockContainer #dash {
+-  background: #313736;
++  background: #000000;
+ }
+ 
+ /* Shrink the dash by reducing padding and border radius */

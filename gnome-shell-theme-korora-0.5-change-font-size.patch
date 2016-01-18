@@ -1,0 +1,12 @@
+diff -urN gnome-shell-theme-korora-0.5.orig/gnome-shell/gnome-shell.css gnome-shell-theme-korora-0.5/gnome-shell/gnome-shell.css
+--- gnome-shell-theme-korora-0.5.orig/gnome-shell/gnome-shell.css	2016-01-19 00:09:13.649858712 +0300
++++ gnome-shell-theme-korora-0.5/gnome-shell/gnome-shell.css	2016-01-19 00:09:25.494650626 +0300
+@@ -22,7 +22,7 @@
+ /* default text style */
+ stage {
+     font-family: cantarell, sans-serif;
+-    font-size: 10pt;
++    font-size: 11pt;
+     color: #eee;
+ }
+ 
