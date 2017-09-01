@@ -4,7 +4,7 @@
 Summary:	GNOME shell theme for Korora
 Name:		gnome-shell-theme-korora
 Version:	0.5
-Release:	1.%{rev}%{?dist}
+Release:	2.%{rev}%{?dist}
 
 Group:		User Interface/Desktops
 License:	GPLv2
@@ -32,6 +32,9 @@ The %{theme_name} theme for GNOME Shell.
 mkdir -p -m755 %{buildroot}%{_datadir}/themes/%{theme_name}/gnome-shell
 cp -pr gnome-shell/* %{buildroot}%{_datadir}/themes/%{theme_name}/gnome-shell
 
+cd %{buildroot}%{_datadir}/themes/%{theme_name}/gnome-shell/
+ln -s media/*.svg .
+cd -
 
 %files
 %dir %{_datadir}/themes/%{theme_name}
@@ -39,6 +42,9 @@ cp -pr gnome-shell/* %{buildroot}%{_datadir}/themes/%{theme_name}/gnome-shell
 
 
 %changelog
+* Fri Sep  1 2017 Arkady L. Shane <ashejn@russianfedora.pro> - 0.5-2.20150716git939ecf.R
+- fix warnings in journal
+
 * Tue Jan 19 2016 Arkady L. Shane <ashejn@russianfedora.pro> - 0.5-1.20150716git939ecf.R
 - change color for dock
 - set 11pt for main font
