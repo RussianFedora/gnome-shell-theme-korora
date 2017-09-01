@@ -49,7 +49,7 @@ cd -
 - change color for dock
 - set 11pt for main font
 
-* Mon Jul 16 2015 Ian Firns <firnsy@kororaproject.org> - 0.5-1
+* Sat Jul 16 2015 Ian Firns <firnsy@kororaproject.org> - 0.5-1
 - Don't use symbolic icons for panel app-icons until themes have
   better coverage.
 
